@@ -575,7 +575,7 @@ match shared_vec.borrow_mut().is_empty() {
 
 The rules around matches are often particularly surprising.
 
-What happens here? ([playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=6632571429df1b9e2d8844e8838c0609))
+What happens here? ([playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=48b9c9d4fed456e277c7c8069e5545dc))
 
 .footnote[There is a clippy lint `significant_drop_in_scrutinee`, but it needs work (see [rust-clippy#8987](https://github.com/rust-lang/rust-clippy/issues/8987)).]
 
